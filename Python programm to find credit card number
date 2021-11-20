@@ -1,0 +1,80 @@
+
+s=int(input("Enter Input number : "))
+
+OP=' '
+
+IP='0123456789'
+
+a=s+1;
+
+length=len(s);
+
+lenab=len(IP);
+
+for i in range(0,length):
+
+    if(s[i]!=' '):
+
+       OP=OP+s[i];
+
+for j in range(0,lenab):
+
+     for k in range(0, length):
+
+        if(IP[j]!=s[k]):
+
+           a=a+1;
+
+for b in range(0,length-3):
+
+       if(OP[b]==OP[b+1]):
+
+           if(OP[b+1]==OP[b+2]):
+
+              if(OP[b+2]==OP[b+3]):
+
+                 a=a+1;
+
+for c in range(4,13,4):
+
+      if(s[c]!=' '):
+
+         a=a+1;
+
+if(a>0):
+
+    print("Invalid Credit Card");
+
+else:
+
+
+    print("Valid Credit Card");
+
+
+  
+
+    
+
+
+
+      
+
+
+
+  
+
+
+
+  
+
+
+
+ 
+
+      
+
+
+
+  
+
+
