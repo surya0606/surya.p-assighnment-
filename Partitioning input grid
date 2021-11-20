@@ -1,0 +1,16 @@
+a=str(input ("give Your Input : "))
+
+b=int(input("valu of Partition : "))
+
+length=(len(a)//b)+1;
+
+c=0;
+
+for i in range(0,length):
+
+    for j in range(0,b):
+
+        print(a[inc]);
+
+        c=c+1;
+
