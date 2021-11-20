@@ -1,0 +1,29 @@
+With (.replace)
+
+s=str(input("Enter Input String : "))
+
+a=' '
+
+a=s.replace(' ','-')
+
+print("Your Output String is : ",a);
+
+Without(.replace);
+
+s=str(input("Enter Input String : "))
+
+a=' '
+
+length=len(s);
+
+for i in range(0,length):
+
+     if(s[i]==' '):
+
+        a=a+'-';
+
+     else:
+
+        a=a+s[i];
+
+print("Your Output is : ",a)
